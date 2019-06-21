@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="92649" started-at="2019-06-21T11:16:50Z" finished-at="2019-06-21T11:18:23Z">
+    <groups>
+    </groups>
+    <test name="HomePageTest" duration-ms="92649" started-at="2019-06-21T11:16:50Z" finished-at="2019-06-21T11:18:23Z">
+      <class name="com.dancewear.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.dancewear.testcases.HomePageTest@239963d8]" name="setup" is-config="true" duration-ms="19232" started-at="2019-06-21T16:46:50Z" finished-at="2019-06-21T16:47:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyUrl()[pri:1, instance:com.dancewear.testcases.HomePageTest@239963d8]" name="verifyUrl" duration-ms="35" started-at="2019-06-21T16:47:09Z" finished-at="2019-06-21T16:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUrl -->
+        <test-method status="PASS" signature="resizeScreenShot()[pri:2, instance:com.dancewear.testcases.HomePageTest@239963d8]" name="resizeScreenShot" duration-ms="5883" started-at="2019-06-21T16:47:09Z" finished-at="2019-06-21T16:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resizeScreenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dancewear.testcases.HomePageTest@239963d8]" name="tearDown" is-config="true" duration-ms="2153" started-at="2019-06-21T16:47:15Z" finished-at="2019-06-21T16:47:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dancewear.testcases.HomePageTest -->
+      <class name="com.dancewear.testcases.CostumesPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.dancewear.testcases.CostumesPageTest@57fffcd7]" name="setup" is-config="true" duration-ms="18763" started-at="2019-06-21T16:47:43Z" finished-at="2019-06-21T16:48:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="captureTitle()[pri:5, instance:com.dancewear.testcases.CostumesPageTest@57fffcd7]" name="captureTitle" duration-ms="13144" started-at="2019-06-21T16:48:02Z" finished-at="2019-06-21T16:48:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureTitle -->
+        <test-method status="PASS" signature="resizeScreenShot()[pri:6, instance:com.dancewear.testcases.CostumesPageTest@57fffcd7]" name="resizeScreenShot" duration-ms="5601" started-at="2019-06-21T16:48:15Z" finished-at="2019-06-21T16:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resizeScreenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dancewear.testcases.CostumesPageTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="2123" started-at="2019-06-21T16:48:20Z" finished-at="2019-06-21T16:48:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dancewear.testcases.CostumesPageTest -->
+      <class name="com.dancewear.testcases.DanceShoesTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.dancewear.testcases.DanceShoesTest@3abbfa04]" name="setup" is-config="true" duration-ms="13981" started-at="2019-06-21T16:47:17Z" finished-at="2019-06-21T16:47:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTitle()[pri:2, instance:com.dancewear.testcases.DanceShoesTest@3abbfa04]" name="verifyTitle" duration-ms="3868" started-at="2019-06-21T16:47:31Z" finished-at="2019-06-21T16:47:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="resizeScreenShot()[pri:3, instance:com.dancewear.testcases.DanceShoesTest@3abbfa04]" name="resizeScreenShot" duration-ms="5652" started-at="2019-06-21T16:47:35Z" finished-at="2019-06-21T16:47:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resizeScreenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dancewear.testcases.DanceShoesTest@3abbfa04]" name="tearDown" is-config="true" duration-ms="2164" started-at="2019-06-21T16:47:41Z" finished-at="2019-06-21T16:47:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dancewear.testcases.DanceShoesTest -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Suite -->
+</testng-results>
