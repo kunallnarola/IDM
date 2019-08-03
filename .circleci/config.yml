@@ -1,6 +1,6 @@
 require 'selenium/webdriver'
 
-url = "http://#{ENV['TB_KEY']}:#{ENV['TB_SECRET']}@hub.testingbot.com/wd/hub"
+url = "http://#{ENV['TB_KEY']}:#{ENV['TB_SECRET']}@hub.www.ids.co.uk/dancewear.html/wd/hub"
 
 capabilities = Selenium::WebDriver::Remote::Capabilities.new
 
