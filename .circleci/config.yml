@@ -1,22 +1,9 @@
-require 'selenium/webdriver'
+version: 2.1
 
-url = "http://#{ENV['TB_KEY']}:#{ENV['TB_SECRET']}@hub.www.ids.co.uk/dancewear.html/wd/hub"
+orbs:
+    hello: circleci/hello-build@0.0.7 # uses the circleci/buildpack-deps Docker image
 
-capabilities = Selenium::WebDriver::Remote::Capabilities.new
-
-capabilities['project'] = ENV['TB_AUTOMATE_PROJECT'] if ENV['TB_AUTOMATE_PROJECT']
-capabilities['build'] = ENV['TB_AUTOMATE_BUILD'] if ENV['TB_AUTOMATE_BUILD']
-
-capabilities['platform'] = ENV['SELENIUM_PLATFORM'] || 'ANY'
-capabilities['browser'] = ENV['SELENIUM_BROWSER'] || 'chrome'
-capabilities['browser_version'] = ENV['SELENIUM_VERSION'] if ENV['SELENIUM_VERSION']
-
-browser = Selenium::WebDriver.for(:remote, :url => url, :desired_capabilities => capabilities)
-
-Before do |scenario|
-    @browser = browser
-end
-
-at_exit do
-    browser.quit
-end
+workflows:
+    "Hello Workflow":
+        jobs:
+          - hello/hello-build
